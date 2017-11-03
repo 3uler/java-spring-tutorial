@@ -22,7 +22,9 @@ public class Skill {
 		this.label = label;
 		this.description = description;
 	}
-
+	/**
+	 * @return the id
+	 */
 	public long getId() {
 		return id;
 	}
